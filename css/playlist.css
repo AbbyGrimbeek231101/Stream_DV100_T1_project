@@ -1,0 +1,700 @@
+body{
+    background-color: #0B0C10;
+}
+
+.nav{
+    width: 100%;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.nav-holder{
+    width: 100%;
+    margin: auto;
+}
+
+.logo{
+    height: 50px;
+    margin-left: 50px;
+    margin-top: -15px;
+    float: left;
+}
+
+a{
+    font-family:'Shizuru', cursive;
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+}
+
+li{
+    display: inline;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    font-size: 18px;
+}
+
+ul, li, p{
+    margin: 0;
+    padding: 0;
+}
+
+#searchbar{
+    width: 255px;
+    height: 50px;
+    padding-left: 50px;
+    margin-right: 50px;
+    margin-top: -30px;
+    float: right;
+    border: 2px solid rgb(6, 254, 213);
+    background-color: #0B0C10;
+    opacity: 70%;
+    color: white;
+    border-radius: 90px;
+    font-size: 18px;
+}
+
+.icon{
+    position: absolute;
+    right: 20px;
+    padding-top: -100px;
+    padding-bottom: 10px;
+    height: 30px;
+    width: 30px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#box-1{
+    width: 100%;
+    height: 85px;
+}
+
+h1{
+    font-size: 24px;
+    font-family: 'Shizuru', cursive;
+    margin-left: 122px;
+    color: white;
+}
+
+#box-2{
+    width: 80%;
+    height: 50px;
+    margin-left: 122px;
+}
+
+#box-3{
+    width: 1196px;
+    height: 470px;
+    margin-left: 122px;
+}
+
+#cover{
+    width: 470px;
+    height: 470px;
+    float: left;
+}
+
+#cover-text1{
+    font-size: 64px;
+    font-weight: bold;
+    font-family: 'Shizuru', cursive;
+    float: left;
+    margin-left: -435px;
+    margin-top: 100px;
+}
+
+#cover-text2{
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Shizuru', cursive;
+    float: left;
+    margin-left: -290px;
+    margin-top: 170px;
+}
+
+#song-box{
+    float: left;
+    margin-left: 540px;
+    height: 470px;
+    margin-top: -470px;
+    padding-right: 121px;
+}
+
+.fav{
+    font-size: 18px;
+    font-family: 'Shizuru', cursive;
+    float: left;
+    padding-right: 60px;
+    padding-top: 10px;
+    margin-top: -10px;
+    font-weight: bold;
+    border-bottom: 5px solid black;
+}
+
+.classic{
+    font-size: 18px;
+    font-family: 'Shizuru', cursive;
+    float: left;
+    padding-right: 60px;
+    padding-top: 10px;
+    margin-top: -10px;
+}
+
+.suggest{
+    font-size: 18px;
+    font-family: 'Shizuru', cursive;
+    float: left;
+    padding-right: 60px;
+    padding-top: 10px;
+    margin-top: -10px;
+}
+
+.header{
+    float: left;
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.hash{
+    float: left;
+    margin-top: -410px;
+    margin-left: 550px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: 'PT Sans', sans-serif;
+}
+
+.title{
+    float: left;
+    margin-top: -410px;
+    margin-left: 600px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: 'PT Sans', sans-serif;
+}
+
+.album{
+    float: left;
+    margin-top: -410px;
+    margin-left: 800px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: 'PT Sans', sans-serif;
+}
+
+.duration{
+    float: left;
+    margin-top: -410px;
+    margin-left: 1000px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: 'PT Sans', sans-serif;
+}
+
+.one{
+    width: 100px;
+    float: left;
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+
+#one1{
+    margin-left: 550px;
+    font-size: 14px;
+    margin-top: -360px;
+    float: left;
+}
+
+#SongTitle1{
+    float: left;
+    font-size: 14px;
+    margin-left: 600px;
+    font-weight: bold;
+    margin-top: -370px;
+}
+
+#Art1{
+    float: left;
+    font-size: 12px;
+    margin-left: 800px;
+    margin-top: -360px;
+}
+
+#Duration1{
+    float: left;
+    font-size: 12px;
+    margin-left: 1000px;
+    margin-top: -360px;
+}
+
+#option1{
+    float: left;
+    font-size: 12px;
+    width: 30px;
+    margin-left: 1100px;
+    margin-top: -370px;
+}
+
+#Ava{
+    font-size: 12px;
+    margin-left: 600px;
+    float: left;
+    margin-top: -355px;
+}
+
+#Lore{
+    font-size: 12px;
+    margin-left: 630px;
+    float: left;
+    margin-top: -355px;
+}
+
+bl{
+    width: 500px;
+    float: right;
+    height: 2px;
+
+}
+
+.two{
+    width: 100px;
+    float: left;
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+
+#playingnow{
+    margin-left: 545px;
+    font-size: 14px;
+    margin-top: -305px;
+    float: left;
+}
+
+#SongTitle2{
+    float: left;
+    font-size: 14px;
+    margin-left: 600px;
+    font-weight: bold;
+    margin-top: -305px;
+}
+
+#Art2-i{
+    float: left;
+    font-size: 12px;
+    margin-left: 800px;
+    margin-top: -295px;
+    font-weight: bold;
+}
+
+#Art2-ii{
+    float: left;
+    font-size: 12px;
+    margin-left: 850px;
+    margin-top: -295px;
+    font-weight: bold;
+}
+
+#Art2-iii{
+    float: left;
+    font-size: 12px;
+    margin-left: 887px;
+    margin-top: -295px;
+    font-weight: bold;
+}
+
+#Art2-iv{
+    float: left;
+    font-size: 12px;
+    margin-left: 910px;
+    margin-top: -295px;
+    font-weight: bold;
+}
+
+#Art2-v{
+    float: left;
+    font-size: 12px;
+    margin-left: 935px;
+    margin-top: -295px;
+    font-weight: bold;
+}
+
+#Art2-vi{
+    float: left;
+    font-size: 12px;
+    margin-left: 960px;
+    margin-top: -295px;
+    font-weight: bold;
+}
+
+#Duration2{
+    float: left;
+    font-size: 12px;
+    margin-left: 1000px;
+    margin-top: -295px;
+    font-weight: bold;
+}
+
+#option2{
+    float: left;
+    font-size: 12px;
+    width: 30px;
+    margin-left: 1100px;
+    margin-top: -300px;
+}
+
+#Cyrus{
+    font-size: 12px;
+    margin-left: 600px;
+    float: left;
+    margin-top: -290px;
+    font-weight: bold;
+}
+
+
+.three{
+    width: 100px;
+    float: left;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#three3{
+    margin-left: 550px;
+    font-size: 14px;
+    margin-top: -240px;
+    float: left;
+}
+
+#SongTitle3{
+    float: left;
+    font-size: 14px;
+    margin-left: 600px;
+    font-weight: bold;
+    margin-top: -250px;
+}
+
+#Art3{
+    float: left;
+    font-size: 12px;
+    margin-left: 800px;
+    margin-top: -240px;
+}
+
+#Duration3{
+    float: left;
+    font-size: 12px;
+    margin-left: 1000px;
+    margin-top: -240px;
+}
+
+#option3{
+    float: left;
+    font-size: 12px;
+    width: 30px;
+    margin-left: 1100px;
+    margin-top: -245px;
+}
+
+#Webb{
+    font-size: 12px;
+    margin-left: 600px;
+    float: left;
+    margin-top: -235px;
+}
+
+.four{
+    width: 100px;
+    float: left;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#four4{
+    margin-left: 550px;
+    font-size: 14px;
+    margin-top: -180px;
+    float: left;
+}
+
+#SongTitle4-i{
+    float: left;
+    font-size: 14px;
+    margin-left: 600px;
+    font-weight: bold;
+    margin-top: -190px;
+}
+
+#SongTitle4-ii{
+    float: left;
+    font-size: 14px;
+    margin-left: 640px;
+    font-weight: bold;
+    margin-top: -190px;
+}
+
+#Art4-i{
+    float: left;
+    font-size: 12px;
+    margin-left: 800px;
+    margin-top: -185px;
+}
+
+#Art4-ii{
+    float: left;
+    font-size: 12px;
+    margin-left: 820px;
+    margin-top: -185px;
+}
+
+#Duration4{
+    float: left;
+    font-size: 12px;
+    margin-left: 1000px;
+    margin-top: -185px;
+}
+
+#option4{
+    float: left;
+    font-size: 12px;
+    width: 30px;
+    margin-left: 1100px;
+    margin-top: -190px;
+}
+
+#Abe{
+    font-size: 12px;
+    margin-left: 600px;
+    float: left;
+    margin-top: -170px;
+    color: white;
+}
+
+.five{
+    width: 100px;
+    float: left;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#five5{
+    margin-left: 550px;
+    font-size: 14px;
+    margin-top: -125px;
+    float: left;
+}
+
+#SongTitle5{
+    float: left;
+    font-size: 14px;
+    margin-left: 600px;
+    font-weight: bold;
+    margin-top: -135px;
+}
+
+#Art5{
+    float: left;
+    font-size: 12px;
+    margin-left: 800px;
+    margin-top: -130px;
+}
+
+#Duration5{
+    float: left;
+    font-size: 12px;
+    margin-left: 1000px;
+    margin-top: -130px;
+}
+
+#option5{
+    float: left;
+    font-size: 12px;
+    width: 30px;
+    margin-left: 1100px;
+    margin-top: -135px;
+}
+
+#Adele{
+    font-size: 12px;
+    margin-left: 600px;
+    float: left;
+    margin-top: -120px;
+}
+
+
+.six{
+    width: 100px;
+    float: left;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#six6{
+    margin-left: 550px;
+    font-size: 14px;
+    margin-top: -70px;
+    float: left;
+}
+
+#SongTitle6{
+    float: left;
+    font-size: 14px;
+    margin-left: 600px;
+    font-weight: bold;
+    margin-top: -80px;
+}
+
+#Art6{
+    float: left;
+    font-size: 12px;
+    margin-left: 800px;
+    margin-top: -70px;
+}
+
+#Duration6{
+    float: left;
+    font-size: 12px;
+    margin-left: 1000px;
+    margin-top: -70px;
+}
+
+#option6{
+    float: left;
+    font-size: 12px;
+    width: 30px;
+    margin-left: 1100px;
+    margin-top: -80px;
+}
+
+#Walk{
+    font-size: 12px;
+    margin-left: 600px;
+    float: left;
+    margin-top: -65px;
+}
+
+#A-M{
+    font-size: 12px;
+    margin-left: 600px;
+    float: left;
+    margin-top: -13px;
+}
+
+
+#box6{
+    width: 1120px;
+    height: 1px;
+    margin-left: 122px;
+    border-bottom: 2px solid #2b2b2b;
+}
+
+.line-element{
+    width: 1120px;
+    height: 50px;
+    margin-top: 140px;
+}
+
+.line{
+    width: 100%;
+    height: 5px;
+    background-color: #2b2b2b;
+}
+
+.line-fill{
+    width: 50%;
+    height: 5px;
+    background-color: #66FCF1;
+}
+
+.marker{
+    width: 20px;
+    height: 20px;
+    background-color: #66FCF1;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: -12px;
+}
+
+#box7{
+    width: 1120px;
+    height: 40px;
+    margin-left: 122px;
+}
+
+#box8{
+    width: 1120px;
+    height: 70px;
+    margin-left: 122px;
+}
+
+#artcover{
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+
+#TrackBack-8{
+    padding-left: 20px;
+    font-size: 24px;
+    font-family: 'Shizuru', cursive;
+    font-weight: bold;
+    float: left;
+}
+
+#TitleBack-8-i{
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    float: left;
+    margin-top: 40px;
+    margin-left: -45px;
+}
+
+#TitleBack-8-ii{
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    float: left;
+    margin-top: 40px;
+    margin-left: -20px;
+}
+
+#backward{
+    width: 50px;
+    margin-left: 295px;
+    margin-bottom: 30px;
+    padding-right: 30px;
+    float: left;
+    padding-top: 15px;
+}
+
+#Pause{
+    width: 100px;
+    margin-top: -15px;
+    margin-left: -180px;
+}
+
+#forward{
+    width: 50px;
+    margin-top: 15px;
+    float: left;
+    margin-left: -2px;
+    padding-left: 130px;
+}
+
+#time{
+    font-size: 18px;
+    font-family: 'Shizuru', cursive;
+    float: right;
+    margin-right: 80px;
+    margin-top: 20px;
+}
+
+#info{
+    width: 30px;
+    float: right;
+    margin-right: -110px;
+    margin-top: 15px;
+}

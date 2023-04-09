@@ -65,7 +65,6 @@ ul, li, p{
     margin-top: 3px;
     height: 50px;
     text-align: center;
-    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
